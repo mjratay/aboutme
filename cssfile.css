@@ -114,10 +114,13 @@ aside.rock{
     height: 200vh;
     background-color: #bbbbbb;
     font-size: 14pt;
-    text-align: center
 }
 ol{
     padding: 30px;
+}
+td{
+    text-align: center;
+    border: 2px;
 }
 
 
