@@ -110,7 +110,7 @@ aside.full{
     position: static;
     float: left;
     margin-top: 35px;
-    width: 90%;
+    width: 85%;
     min-height: 100vh;
     background-color: #bbbbbb;
     font-size: 14pt;
@@ -131,9 +131,9 @@ table{
     float: right;
     position: relative;
     margin-top: 35px;
-    width: 10%;
+    width: 15%;
     min-height: 100vh;
-    background-color: #73a08f;
+    background-color: #bbbbbb;
     color: white;
 }
 
