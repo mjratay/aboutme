@@ -129,7 +129,7 @@ table{
 }
 #menu{
     float: right;
-    position: static;
+    position: relative;
     margin-top: 35px;
     width: 10%;
     min-height: 100vh;
