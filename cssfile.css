@@ -106,7 +106,7 @@ aside.full{
     background-color: #bbbbbb;
     font-size: 14pt;
     }
-aside.rock{
+#rock{
     position: static;
     float: left;
     margin-top: 35px;
