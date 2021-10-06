@@ -65,7 +65,7 @@
 <section id='menu'>
   <select id='rockTable'>
     <option>Known Rocks</options>
-    <option>Unknown Rocks (Tumbled)</option>
+    <option value='unknown1'>Unknown Rocks (Tumbled)</option>
     <option>Unknown Rocks (Outside)</option>
   </select>
 </section>
@@ -73,7 +73,19 @@
    Don't contact me.
 </footer>
 <script>
-  
+    var activities = document.getElementById("menu");
+
+    activities.addEventListener("change", function() {
+        if(activities.value == "unknown1")
+        {
+            unknownTumbled();
+        }
+    });
+
+    function unknownTumbled() {
+        rockTable = document.querySelector('#rock');
+        rockTable.innerHTML = "Changed!";
+    }
 </script>
 </body>
 </html>
