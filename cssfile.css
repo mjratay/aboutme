@@ -118,9 +118,14 @@ aside.rock{
 ol{
     padding: 30px;
 }
-table, th, td{
+th, td{
     text-align: center;
     border: 2px solid black;
+}
+table{
+    text-align: center;
+    border: 2px solid black;
+    padding: 2px;
 }
 
 
