@@ -73,7 +73,7 @@
    Don't contact me.
 </footer>
 <script>
-    var activities = document.getElementById("menu");
+    var activities = document.getElementById("rockTable");
 
     activities.addEventListener("change", function() {
         if(activities.value == "unknown1")
@@ -83,8 +83,8 @@
     });
 
     function unknownTumbled() {
-        rockTable = document.querySelector('#rock');
-        rockTable.innerHTML = "Changed!";
+        changeTable = document.querySelector('#rock');
+        changeTable.innerHTML = "Changed!";
     }
 </script>
 </body>
