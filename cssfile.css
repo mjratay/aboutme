@@ -127,5 +127,14 @@ table{
     border: 2px solid black;
     padding: 2px;
 }
+#menu{
+    float: right;
+    position: static;
+    margin-top: 35px;
+    width: 10%;
+    min-height: 100vh;
+    background-color: #73a08f;
+    color: white;
+}
 
 
