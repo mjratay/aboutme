@@ -140,7 +140,7 @@ table{
     position: relative;
     margin-top: 55px;
     width: 15%;
-    min-height: 100vh;
+    min-height: 200vh;
     background-color: #bbbbbb;
     color: white;
 }
