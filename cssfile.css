@@ -114,6 +114,7 @@ aside.full{
     min-height: 100vh;
     background-color: #bbbbbb;
     font-size: 14pt;
+    padding-left: 2px;
 }
 ol{
     padding: 30px;
@@ -137,7 +138,7 @@ table{
 #menu{
     float: right;
     position: relative;
-    margin-top: 45px;
+    margin-top: 55px;
     width: 15%;
     min-height: 100vh;
     background-color: #bbbbbb;
