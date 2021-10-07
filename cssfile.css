@@ -90,7 +90,7 @@ footer {
     color: white;
 }
 body {
-    background-color: black;
+    background-color: #bbbbbb;
     margin: 0px;
 }
 ul{
@@ -109,7 +109,7 @@ aside.full{
 #rock{
     position: static;
     float: left;
-    margin-top: 40px;
+    margin-top: 45px;
     width: 84%;
     min-height: 100vh;
     background-color: #bbbbbb;
