@@ -144,5 +144,8 @@ table{
     background-color: #bbbbbb;
     color: white;
 }
-
+iframe{
+    width: 84%;
+    min-height: 100vh;
+}
 
