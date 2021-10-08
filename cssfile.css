@@ -147,6 +147,6 @@ table{
 iframe{
     width: 84%;
     min-height: 100%;
-    border: 1em solid #bbbbbb
+    border: none;
 }
 
