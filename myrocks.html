@@ -28,24 +28,12 @@
   </select>
   </section>
   <aside id='rock'>
-    <iframe id='rockCollectionTable' src='knownRocks.html'></iframe>
+    <iframe id='rockCollectionTable' onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' src='knownRocks.html'></iframe>
   </aside>
 <footer>
    Don't contact me.
 </footer>
 <script>
-    function resizeIFrameToFitContent( iFrame ) {
-
-        iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
-        iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
-    }
-
-    window.addEventListener('DOMContentLoaded', function(e) {
-
-        var iFrame = document.getElementById( 'rockCollectionTable' );
-        resizeIFrameToFitContent( iFrame );
-    });
-  
     var activities = document.getElementById("rockTable");
 
     activities.addEventListener("change", function() {
