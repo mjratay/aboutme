@@ -31,7 +31,7 @@
   <select id='rockTable'>
     <option value='known'>Known Rocks</options>
     <option value='unknown1'>Unknown Rocks (Tumbled)</option>
-    <option>Unknown Rocks (Outside)</option>
+    <option value='unknown2'>Unknown Rocks (Outside)</option>
   </select>
   </section>
     </div>
@@ -47,18 +47,24 @@
         {
            knownTumbled();
         }
-    });
-    
-    activities.addEventListener("change", function() {
-        if(activities.value == "unknown1")
+        else if(activities.value == "unknown1")
         {
             unknownTumbled();
+        }
+        else if(activities.value == "unknown1")
+        {
+            unknownOutside();
         }
     });
 
     function unknownTumbled() {
-        changeTable = document.querySelector('#rock');
-        changeTable.innerHTML = "Changed!";
+        changeTable = document.querySelector('#rockCollectionTable');
+        changeTable.src = 'unknownTumbled.html';
+    }
+  
+    function unknownOutside() {
+        changeTable = document.querySelector('#rockCollectionTable');
+        changeTable.src = 'unknownOutside.html';
     }
     
     function knownTumbled() {
