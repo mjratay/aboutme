@@ -107,8 +107,6 @@ aside.full{
     font-size: 14pt;
     }
 #rock{
-    position: static;
-    float: left;
     margin-top: 57px;
     width: 84%;
     min-height: 100vh;
@@ -136,8 +134,6 @@ table{
     background-color: #73a08f;
 }
 #menu{
-    float: right;
-    position: relative;
     margin-top: 55px;
     width: 15%;
     min-height: 200vh;
@@ -147,5 +143,9 @@ table{
 iframe{
     width: 84%;
     border: none;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 85% 15%;
 }
 
