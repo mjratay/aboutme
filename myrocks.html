@@ -29,7 +29,7 @@
    <div id='d2'>
   <section id='menu'>
   <select id='rockTable'>
-    <option>Known Rocks</options>
+    <option value='known'>Known Rocks</options>
     <option value='unknown1'>Unknown Rocks (Tumbled)</option>
     <option>Unknown Rocks (Outside)</option>
   </select>
@@ -43,6 +43,13 @@
     var activities = document.getElementById("rockTable");
 
     activities.addEventListener("change", function() {
+        if(activities.value == "known")
+        {
+           knownTumbled();
+        }
+    });
+    
+    activities.addEventListener("change", function() {
         if(activities.value == "unknown1")
         {
             unknownTumbled();
@@ -52,6 +59,11 @@
     function unknownTumbled() {
         changeTable = document.querySelector('#rock');
         changeTable.innerHTML = "Changed!";
+    }
+    
+    function knownTumbled() {
+        changeTable = document.querySelector('#rockCollectionTable');
+        changeTable.src = 'knownRocks.html';
     }
 </script>
 </body>
